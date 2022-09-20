@@ -1,0 +1,171 @@
+/*&display=swap&subset=cyrillic-ext*/
+@import "null.css";
+
+/* Использовать после body 
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+*/
+body{
+	font-size: 20px;
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+.borderone{
+background-color: darkcyan;
+max-width: 300px;
+padding: 20px;
+margin: 0px auto 30px;
+border: 10px solid hotpink;
+}
+.bordertwo{
+background-color: darkcyan;
+max-width: 300px;
+padding: 20px;
+margin: 0px auto 30px;
+border: 10px dotted hotpink;
+}
+.borderthree{
+background-color: darkcyan;
+max-width: 300px;
+padding: 20px;
+margin: 0px auto 30px;
+border: 10px dashed hotpink;
+}
+.borderfor{
+background-color: darkcyan;
+max-width: 300px;
+padding: 20px;
+margin: 0px auto 30px;
+border: 10px double hotpink;
+}
+.borderfive{
+background-color:coral;
+max-width: 300px;
+margin: 0px auto 30px;
+border: 50px solid transparent;
+}
+.bordersix {
+	background-color: darkcyan;
+	max-width: 300px;
+	padding: 20px;
+	margin: 0px auto 30px;
+	border: 10px double hotpink;
+	border-bottom: none;
+}
+.borderseven {
+	background-color: darkcyan;
+	max-width: 300px;
+	padding: 20px;
+	margin: 0px auto 30px;
+	border-right: 10px double hotpink;
+}
+.borderlink{
+	background-color: lightsteelblue;
+	display: inline-block;
+	margin: 30px;
+	border-bottom: 5px dashed violet;
+}
+.radiusone{
+	background-color: yellowgreen;
+	max-width: 400px;
+	margin: 30px;
+	border-radius: 30px 10px 20px 40px;
+}
+.radiusoneone{
+	background-color: yellowgreen;
+	max-width: 400px;
+	margin: 30px;
+	border-radius: 60px 90px 40px 70px;
+	overflow: hidden;
+}
+.radiuspan{
+	background-color: lightsalmon;
+	border-radius: 40px;
+}
+.radiusthree{
+	background-color: tomato;
+	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+	border: 10px solid blueviolet;
+	overflow: hidden;
+	margin: 30px;
+}
+.radiustwo {
+	background-color:#fbc2eb;
+	width: 250px;
+	height: 250px;
+	margin: 30px;
+	border-radius: 43% 57% 81% 19% / 30% 45% 55% 70%;
+	overflow: hidden;
+}
+.img{
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.outline{
+	background-color:darkred;
+	max-width: 500px;
+	max-height: 500px;
+	margin: 50px;
+	outline: 10px solid black;
+}
+.shadowone{
+	background-color: slateblue;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 10px 10px 10px 10px chocolate;
+	margin: 20px;
+}
+.shadowtwo{
+	background-color:darkmagenta;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: inset -10px -10px 50px 10px chocolate;
+	margin: 20px;
+}
+.opacityone{
+	background-color:teal;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 20px;
+	opacity: 0;
+}
+.tesk1{
+	background-color: teal;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 0px 0px 20px 0px;
+}
+.tesk2{
+	background-color:deepskyblue;
+	opacity: 0.5;
+	margin: 0px 0px 20px 0px;
+}
+.tesk3{
+	display: inline-block;
+	border: 10px double hotpink;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+}
+.tesk4{
+	display: inline-block;
+	border: 10px double hotpink;
+	box-shadow: 10px 10px 10px 10px chocolate;
+	margin: 0px 0px 100px 0px;
+}
